@@ -19,6 +19,7 @@ packages:
   - apt-transport-https
   - ca-certificates
   - curl
+  - nfs-common
 write_files:
     - content: |
         net.bridge.bridge-nf-call-ip6tables = 1
